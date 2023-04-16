@@ -1,0 +1,19 @@
+@tailwind base;
+
+@layer base {
+  body {
+    @apply text-center bg-Light-grey h-screen flex justify-center items-center;
+  }
+  h1 {
+    @apply text-Heading text-Dark-navy;
+  }
+  img {
+    @apply rounded-[10px];
+  }
+  p {
+    @apply text-Grey text-Body;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
