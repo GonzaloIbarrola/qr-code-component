@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 .vite
+qr-code-component-figma
 node_modules
 dist
 dist-ssr
